@@ -1,4 +1,4 @@
-# icuc-assignment
+# ICUC Reporting Assignment
 
 Today you will be creating a graph that will display the number of reactions a 'post' has recieved!
 
