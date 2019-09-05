@@ -30,6 +30,8 @@ To run the dev server use: `npm run dev`
 
 6. Create and structure any stylesheets you may need.
 
+7. Test your code.
+
 That's it!
 
 
@@ -37,12 +39,12 @@ That's it!
 
 ```
 'data': [
-    { 'name': 'like', 'value': 420, 'color': 'blue' },
-    { 'name': 'love', 'value': 269, 'color': 'pink' },
-    { 'name': 'haha', 'value': 326, 'color': 'yellow' },
-    { 'name': 'wow', 'value': 14, 'color': 'orange' },
-    { 'name': 'sad', 'value': 4, 'color': 'lightblue' },
-    { 'name': 'angry', 'value': 6, 'color': 'red' }
+    { 'like': 420, 'color': 'blue' },
+    { 'love': 269, 'color': 'pink' },
+    { 'haha': 326, 'color': 'yellow' },
+    { 'wow': 14, 'color': 'orange' },
+    { 'sad': 4, 'color': 'lightblue' },
+    { 'angry': 6, 'color': 'red' }
 ]
 ```
 
