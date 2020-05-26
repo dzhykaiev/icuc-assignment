@@ -1,51 +1,17 @@
-# ICUC Reporting Assignment
+# assignment
 
-Today you will be creating a graph that will display the number of reactions a 'post' has recieved!
+## CLI Commands
+*   `npm install`: Installs dependencies
 
-This project uses [Preact](https://preactjs.com/), [D3.js](https://d3js.org/), [Typescript](https://www.typescriptlang.org/), [Jest](https://jestjs.io/) and Sass
+*   `npm run dev`: Run a development, HMR server
 
-The final graph should look something like this:
+*   `npm run serve`: Run a production-like server
 
-![Alt text](./src/assets/graph.png?raw=true "Reactions")
+*   `npm run build`: Production-ready build
 
-### Before you get started
+*   `npm run lint`: Pass TypeScript files using TSLint
 
-This project uses preact-cli. In order to run this project you must install the preact-cli package from npm. You can find out more about preact-cli [here](https://github.com/preactjs/preact-cli).
-
-To install preact-cli globally use: `npm install -g preact-cli`
-
-To run the dev server use: `npm run dev`
-
-### What we want
-
-1. Create a service that will provide your component(s) with the mock data provided.
-
-2. Recreate the reactions bar graph using d3.js and the provided reaction svgs.
-
-3. Order the bar graph from largest to smallest.
-
-4. Center the graph on the page. (bonus: make the graph dynamically fill the page)
-
-5. Ensure the graph has proper axis titles and increments.
-
-6. Create and structure any stylesheets you may need.
-
-7. Test your code.
-
-That's it!
+*   `npm run test`: Run Jest and [`preact-render-spy`](https://github.com/mzgoddard/preact-render-spy) for your tests
 
 
-### Here is the mock data
-
-```
-'data': [
-    { 'like': 420, 'color': 'blue' },
-    { 'love': 269, 'color': 'pink' },
-    { 'haha': 326, 'color': 'yellow' },
-    { 'wow': 14, 'color': 'orange' },
-    { 'sad': 4, 'color': 'lightblue' },
-    { 'angry': 6, 'color': 'red' }
-]
-```
-
-The reactions svg are located in `src/assets/img`
+For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).

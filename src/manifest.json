@@ -1,6 +1,6 @@
 {
-  "name": "icuc-assignment",
-  "short_name": "icuc-assignment",
+  "name": "assignment",
+  "short_name": "assignment",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
