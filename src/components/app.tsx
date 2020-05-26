@@ -18,7 +18,6 @@ const App: FunctionalComponent = () => {
 
     return (
         <div id="app">
-            <Header />
             <Router onChange={handleRoute}>
                 <Route path="/" component={Home} />
                 <NotFoundPage default />

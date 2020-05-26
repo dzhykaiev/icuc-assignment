@@ -2,7 +2,7 @@ import { FunctionalComponent, h } from "preact";
 
 const Home: FunctionalComponent = () => {
     return (
-        <div class={style.home}>
+        <div>
             <h1>Home</h1>
             <p>This is the Home component.</p>
         </div>
