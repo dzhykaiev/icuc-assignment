@@ -8,7 +8,7 @@
     "serve": "sirv build --port 8080 --cors --single",
     "dev": "preact watch",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "test": "jest ./tests"
+    "test": "jest --config ./jest.config.js --watch"
   },
   "husky": {
     "hooks": {
@@ -23,7 +23,8 @@
     "build/*"
   ],
   "dependencies": {
-    "d3": "5.16.0",
+    "axios": "^0.19.2",
+    "d3": "^5.16.0",
     "preact": "^10.3.1",
     "preact-jsx-chai": "^3.0.0",
     "preact-markup": "^2.0.0",
@@ -31,7 +32,8 @@
     "preact-router": "^3.2.1"
   },
   "devDependencies": {
-    "@types/d3": "5.7.2",
+    "@testing-library/preact": "^1.0.2",
+    "@types/d3": "^5.7.2",
     "@types/enzyme": "^3.10.4",
     "@types/jest": "^25.1.2",
     "@types/webpack-env": "^1.15.1",

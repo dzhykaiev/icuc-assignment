@@ -1,0 +1,10 @@
+{
+  "data": [
+    { "like": 420, "color": "blue" },
+    { "love": 269, "color": "pink" },
+    { "haha": 326, "color": "yellow" },
+    { "wow": 14, "color": "orange" },
+    { "sad": 4, "color": "lightblue" },
+    { "angry": 6, "color": "red" }
+  ]
+}
