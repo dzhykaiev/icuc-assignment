@@ -18,6 +18,11 @@ const Graph: FunctionalComponent<IGraph> = ({ data }) => {
     );
   };
 
+  // update graph
+  const updateGraph = () => {
+    drawGraph(data);
+  };
+
   const drawGraph = (data: Reaction[] | undefined) => {
     if (data) {
       // remove old graph
@@ -116,9 +121,9 @@ const Graph: FunctionalComponent<IGraph> = ({ data }) => {
   }, [data]);
 
   useEffect(() => {
-    window.addEventListener("resize", () => drawGraph(data));
+    window.addEventListener("resize", updateGraph);
     return () => {
-      window.removeEventListener("resize", () => drawGraph(data));
+      window.removeEventListener("resize", updateGraph);
     };
   });
 
